@@ -1,10 +1,7 @@
-# Large data files
+# Large data files - exclude files over 100MB
 phcl/phcl_constr.csv
 phcl/phcl_constr.npz
-*.npz
-*.csv
-# Keep only small CSV files if needed, or uncomment specific ones
-# But exclude large ones like phcl_constr.csv
+# Add other large files here as needed
 
 # Large binary files
 *.cor
