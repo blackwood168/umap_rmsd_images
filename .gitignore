@@ -1,0 +1,18 @@
+# Large data files
+phcl/phcl_constr.csv
+phcl/phcl_constr.npz
+*.npz
+*.csv
+# Keep only small CSV files if needed, or uncomment specific ones
+# But exclude large ones like phcl_constr.csv
+
+# Large binary files
+*.cor
+*.cif
+*.tab
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
