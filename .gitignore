@@ -1,7 +1,11 @@
 # Large data files - exclude files over 100MB
 phcl/phcl_constr.csv
 phcl/phcl_constr.npz
+cl/cl_constr.csv
 # Add other large files here as needed
+
+# NPZ files (NumPy compressed arrays)
+*.npz
 
 # Large binary files
 *.cor
