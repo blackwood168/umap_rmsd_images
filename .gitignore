@@ -4,6 +4,9 @@ phcl/phcl_constr.npz
 cl/cl_constr.csv
 # Add other large files here as needed
 
+# CSV files (data files - exclude all)
+*.csv
+
 # NPZ files (NumPy compressed arrays)
 *.npz
 
